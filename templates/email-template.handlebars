@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <style>
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+      box-sizing: border-box;
+      height: 100vh;
+    }
+
+    main {
+      width: 60%;
+      margin: auto;
+      background-color: rgba(128, 128, 128, 0.1);
+      height: 50vh;
+      padding: 2%;
+    }
+
+    header,
+    footer {
+      content: "";
+      height: 10vh;
+      background-color: #333333;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      color: #ff3366;
+      padding-left: 2%;
+      font-size: larger;
+    }
+    p{
+        font-size: large;
+    }
+  </style>
+  <body>
+    <header><h2>BMI</h2></header>
+
+    <main>
+      <h2>Hi, {{name}}</h2>
+      <p>
+        You weigh {{weight}}/kg and your height is {{height}}/m so according to
+        Body Mass Index you are {{bmi}}
+      </p>
+      <p>Regards</p>
+      <p>BMI Comms</p>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
