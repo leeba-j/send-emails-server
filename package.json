@@ -2,7 +2,7 @@
   "name": "send-email",
   "version": "1.0.0",
   "engines": {
-    "node": "16.x"
+    "node": "14.17.0"
   },
   "description": "",
   "main": "server.js",
